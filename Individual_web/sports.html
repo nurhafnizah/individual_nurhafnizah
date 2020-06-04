@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Hobby</title>
+
+<style>
+body{
+background-image:url('nature.jpg');
+background-size:cover;
+font-family:New Caurier;
+font-size:20px 
+margin:0;
+line-height:24px; 
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+
+}
+
+li {
+  float: left;
+}
+
+li a, .prflbtn .edubtn .fmlybtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .prflbtn .edubtn .fmlybtn {
+  background-color: pink;
+  opacity:0.5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E6E6FA;
+  min-width: 100px;
+  box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: pink;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding:20px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<ul>
+  <li><a href="Home.html">Home</a></li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="profile.html">Profile</a>
+    <div class="dropdown-content">
+      <a href="Hobby.html">Hobby</a>
+      <a href="Sports.html">Sports</a>
+    </div>
+</li>
+
+
+  <li class="dropdown">
+  <a href="javascript:void(0)" class="education.html">Education</a>
+    <div class="dropdown-content">
+      <a href="Primary.html">Primary</a>
+      <a href="Secondary.html">Secondary</a>
+      <a href="University.html">University</a>
+    </div>
+  </li>
+
+<li class="dropdown">
+  <a href="javascript:void(0)" class="family.html">Family</a>
+    <div class="dropdown-content">
+      <a href="Mom.html">Mom</a>
+      <a href="Dad.html">Dad</a>
+      <a href="Youngest sister.html">Youngest sister</a>
+      <a href="Sister.html">Sister</a>
+    </div>
+  </li>
+
+  <li><a href="Contacts.html">Contacts</a></li>
+<div class="search-container">
+
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+   
+    </form>
+  </div>
+</div>
+<div style="padding-left:20px"></div>
+</ul>
+<center>
+<h1><font color="#FFB6C1">MY SPORTS</font></h1>
+<p><font color="white"> My favourite activity when leisure time</font></p>
+<div align="center"><img src="badminton.jpg" alt="badminton" style="width:250px;height:250px;"></left>
+<h3 align="center"><font color="#FFB6C1">BADMINTON</font><h3>
+<p align="center"><font color="white">Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it is based on forcing the opponent to move as much as possible; this means that singles strokes are normally directed to the corners of the court.</font></p>
+<p align="center"><font color="white">This is my favorite sports of all time in my life because I am always win.</font></p>
+<div align="center"><img src="bowling.jpg" alt="football" style="width:250px;height:250px;"></left>
+<h3 align="center"><font color="#FFB6C1">BOWLING</font><h3>
+<p align="center"><font color="white">Bowling has been known by such names as bowls, skittles, kegling, ninepins, Dutch pins and quilles. The word bowl could be derived from the Saxon bolla which meant "bubble" originally, but which later came to mean anything spherical.</font></p>
+<p align="center"><font color="white">Playing bowling is like you throwing something that you hate but it is fun.</font></p>
+
+</body>
+</html>
